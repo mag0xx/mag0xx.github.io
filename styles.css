@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px; /* Añadido para aumentar el área de clic */
+}
+
+/* Contenido principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Mejora de contraste en enlaces no visitados */
+a {
+    color: #ff9900; /* Cambiado a un color más visible para enlaces no visitados */
+}
+
+/* Mejora de contraste en enlaces visitados */
+a:visited {
+    color: #ffcc00; /* Cambiado a un color más visible para enlaces visitados */
+}
